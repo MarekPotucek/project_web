@@ -1,0 +1,316 @@
+/* Universally */
+
+h1 {
+    font-size: 60px;
+    color: #2b2b44;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px
+}
+
+h4{
+    color: #ea5822;
+    text-align: center;
+}
+p {
+    padding: 0; 
+    margin: 0; 
+    margin-top: 0.5rem;
+}
+
+a {
+    color: #9f9696;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Home page */
+
+.home_body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4B4B4B;
+    line-height: 1.45;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.home_header {
+    background-color: #eaf4f7;
+    background-image: url("background/holka_na_uvodce.png"), url("background/bluehead.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 1000px 952px,875px 952px;
+    padding: 375px;
+}
+
+.home_header a {
+    color: #2b2b44;
+    font-size: 20px;
+}
+
+.home_header h1{
+    position: absolute;
+    top: 250px;
+    left:100px;
+    line-height: 1.3;
+}
+
+.home_header h4{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.home_logo{
+    font-size: 40px;
+    color: #2b2b44;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.homelogo a {
+    font-size: 40px;
+    color: #2b2b44;
+}
+
+.home_logo b{
+    font-weight: 800;
+}
+
+.home_navigation {
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+  
+.home_navigation a {
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.home_navigation_contact{
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 2px;
+    text-decoration: none;
+}
+
+.home_dropdown_menu {
+    float: left;
+    overflow: hidden;
+
+}
+  
+.home_dropdown_menu .home_dropdown_button {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    padding: 22px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+.home_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    border-top: 4px solid #ea5822;
+  }
+  
+.home_dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.home_dropdown-content a:hover {
+    background-color: #ea5822;
+    color: #ffffff;
+  }
+  
+.home_dropdown_menu:hover .home_dropdown-content {
+    display: block;
+  }
+ 
+.home_header_linkfb{
+    background-color: #ea5822;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.home_header_linkfb{
+    position: absolute;
+    top: 20px;
+    right: 283px;
+}
+
+.home_header_links{
+    position: absolute;
+    top: 20px;
+    right:100px;
+}
+
+.home_header_links a:link, a:visited {
+    background-color: #ffffff;
+    color: #2b2b44;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.home_header_bar{
+    position: absolute;
+    top: 20px;
+    right:30px;
+}
+
+.home_header_p {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+.home_header_tel {
+    position: absolute;
+    top: 500px;
+    left: 400px;
+}
+
+
+
+
+.home_search-bar{
+    position: absolute;
+    top: 450px;
+    left: 100px;
+}
+
+.home_vertical_line {
+    border-left: 4px solid #ea5822;
+    height: 40px;
+    position: absolute;
+    left: 350px;
+    top: 500px;
+}
+
+.home_stats p{
+    color: #3e3e3e;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+}
+
+.home_stats img{
+    position: absolute;
+    left: 30px;
+    top: 48px;
+}
+
+.home_stats h2{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+
+.home_stats_satisfied{
+    background-color: #ffffff;
+    color: #ea5822;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    padding: 70px 120px;
+    position: absolute;
+    left: 15%;
+    top: 660px;
+}
+
+.home_stats_available{
+    background-color: #ffffff;
+    color: #ea5822;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    padding: 70px 120px;
+    position: absolute;
+    left: 33%;
+    top: 660px;
+}
+
+.home_stats_graduate{
+    background-color: #ffffff;
+    color: #ea5822;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    padding: 70px 120px;
+    position: absolute;
+    right: 33%;
+    top: 660px;
+}
+
+.home_stats_active{
+    background-color: #ffffff;
+    color: #ea5822;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    padding: 70px 120px;
+    position: absolute;
+    right: 15%;
+    top: 660px;
+}
+
+.home_categories{
+    margin: 100px;
+}
+
+
+.available {
+    background-color: #2b2b44;
+    color: #ffffff;
+}
+
+.instructors{
+    background-color: #eaf4f7;
+}
+
+.students {
+    background-image: url("background/whatourstudentssay.png");
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home_reklama_footer {
+    background-color: #ea5922;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.reklama img {
+    text-align: center;
+}
+
+
+
+
+footer {
+    color: #c5c5c5;
+    background: #062a35 url("background/background_footer.svg") no-repeat;
+    background-position: 50% 0px;
+    margin: 0;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    display: block;
+  }
