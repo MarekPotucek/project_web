@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Marek Potucek">
-    <title>Home</title>
+    <title>EduPlus</title>
+    <link rel="shortcut icon" type="image/png" href="icon/dalsi_capka.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="home_body">
@@ -62,41 +64,38 @@
                 </div>
             </nav>
 
-
-
             <div class="home_header_linkfb">
-                <a href="https://www.facebook.com/" title="link to facebook"><img src="icon/facebook_header.png" alt=""></a>
+                <a href="https://www.facebook.com/" title="link to facebook" class="linkfb"><img src="icon/facebook_header.png" alt=""></a>
             </div>
             <div class="home_header_links">
                 <a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube_header.png" alt=""></a>
-                <a href="https://www.youtube.com/" title=""><img src="icon/mini_user.png" alt=""> SIGN IN</a> 
+                <a href="" title=""><img src="icon/mini_user.png" alt=""> SIGN IN</a> 
             </div>
             
             <div class="home_header_bar">
                 <img src="icon/bar.png" alt="">
             </div>
+            
             <h4>• • • Welcome to EduPlus</h4>
             <h1>More than 1200 <br>online courses</h1>
-            <div class="home_search-bar">
-            <input list="courses" id="search_courses" name="search_course" placeholder="Search Courses">
-            <datalist id="courses">
-                <option value="Math Course">
-                <option value="Web Design Course">
-                <option value="Team Building Course">
-                <option value="Business Course">
-                <option value="Multi Course">
-                <option value="Engineering Course">
-                <option value="Marketing Course">
-                <option value="Photography Course">
-                <option value="Medical Course">
-                <option value="Health Course">
-                <option value="UI Design Course">
-            </datalist>
-                <button><img src="icon/lupa.png" alt="Find icon"></button>
-              </div>
+
+            <div class="home_search-container">
+                <input list="courses" id="search_courses" name="search_course" placeholder="Search Courses">
+                <button type="submit"><i class="fa fa-search"></i></button>
+                <datalist id="courses">
+                    <option value="Language Courses">
+                    <option value="Design Courses">
+                    <option value="Development Courses">
+                    <option value="Medival Courses">
+                    <option value="Photography Courses">
+                    <option value="Marketing Courses">
+                    <option value="Driving Courses">
+                    <option value="Bussiness Courses">
+                </datalist>
+            </div>
 
             <p class="home_header_p">Suscipit a interdum id felis<br>etiam commodo dui eget</p>
-            <p class="home_header_tel">Online support<br><img src="icon/24_7.png" alt=""><a href="tel:+012(345)6789">+012(345)6789</a></p>
+            <p class="home_header_tel">Online support<br><img src="icon/24_7.png" alt=""><a href="tel:+012(345)6789"><b>+012 (345) 6789</b></a></p>
             <div class="home_vertical_line"></div>
             
             <div class="home_stats">
@@ -120,60 +119,60 @@
 
         <article class="home_categories">
             <h4>• • • Popular Categories • • •</h4>
-            <section>
-                <h2>Course Categories</h2>
-                    <article class="home__categories_graphic">
+            <section class="home_categories_section">
+                <h2 class="home_categories_h2">Course Categories</h2>
+                    <article class="home_categories_graphic">
                         <h3>Graphic design (UI)</h3>
-                        <img src="background/manwithglasses.png" alt="">
+                        <img src="background/manwithglasses.png" alt="" class="home_categories_gallery_item">
                         <p>Web Design Course</p>
                         <p><img src="icon/subtilni_kniha.png" alt=""> 250 <img src="icon/subtilni_users.png" alt=""> 800+ Courses</p>
                     </article>
 
                     <article class="home_categories_business">
                         <h3>Business Studies</h3>
-                        <img src="background/businesswomen.png" alt="">
+                        <img src="background/businesswomen.png" alt="" class="home_categories_gallery_item">
                         <p>Finance Business</p>
                         <p><img src="icon/subtilni_kniha.png" alt=""> 320 <img src="icon/subtilni_users.png" alt=""> 750+ Courses</p>
                     </article>
 
                     <article class="home_categories_web">
                         <h3>Web Development</h3>
-                        <img src="background/womansit.png" alt="">
+                        <img src="background/womansit.png" alt="" class="home_categories_gallery_item">
                         <p>Web Design Course</p>
                         <p><img src="icon/subtilni_kniha.png" alt=""> 320 <img src="icon/subtilni_users.png" alt=""> 750+ Courses</p>
                     </article>
 
                     <article class="home_categories_product">
                         <h3>Product Engineering</h3>
-                        <img src="background/manwithnotebook.png" alt="">
+                        <img src="background/manwithnotebook.png" alt="" class="home_categories_gallery_item">
                         <p>Web Design Course</p>
                         <p><img src="icon/subtilni_kniha.png" alt=""> 320 <img src="icon/subtilni_users.png" alt=""> 750+ Courses</p>
                     </article>
 
                     <article class="home_categories_basic">
                         <h3>Basic Photography</h3>
-                        <img src="background/manwithcamera.png" alt="">
+                        <img src="background/manwithcamera.png" alt="" class="home_categories_gallery_item">
                         <p>Film Movies & Photography</p>
                         <p><img src="icon/subtilni_kniha.png" alt=""> 320 <img src="icon/subtilni_users.png" alt=""> 750+ Courses</p>
                     </article>
 
                     <article class="home_categories_medical">
                         <h3>Medical &  Health</h3>
-                        <img src="background/doctors.png" alt="">
+                        <img src="background/doctors.png" alt="" class="home_categories_gallery_item">
                         <p>Doctors & Nursing</p>
                         <p><img src="icon/subtilni_kniha.png" alt=""> 320 <img src="icon/subtilni_users.png" alt=""> 750+ Courses</p>
                     </article>
 
                     <article class="home_categories_marketing">
                         <h3>Marketing Strategy</h3>
-                        <img src="background/manwhiteboard.png" alt="">
+                        <img src="background/manwhiteboard.png" alt="" class="home_categories_gallery_item">
                         <p>Social Media Marketing</p>
                         <p><img src="icon/subtilni_kniha.png" alt=""> 250 <img src="icon/subtilni_users.png" alt=""> 50+ Courses</p>
                     </article>
 
                     <article class="home_categories_mobile">
                         <h3>Mobile UI Desing</h3>
-                        <img src="background/mobileui.png" alt="">
+                        <img src="background/mobileui.png" alt="" class="home_categories_gallery_item">
                         <p>Web Design Course</p>
                         <p><img src="icon/subtilni_kniha.png" alt=""> 320 <img src="icon/subtilni_users.png" alt=""> 750+ Courses</p>
                     </article>
@@ -182,72 +181,101 @@
 
         <article class="home_courses">
             <h4>• • • Popular Courses • • •</h4>
-            <section>
+            <section class="home_courses_section">
                 <h2>Available Courses</h2>
-                <article class="home_courses_best">
-                    <h3>Best Courses For Learning English Courses</h3>
-                    <img src="background/womantree.png" alt="">
-                    <p><img src="background/frank.png" alt="">Warmer</p>
-                    <img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt="">
-                    <p><img src="icon/subtilni_users.png" alt="">25 <img src="icon/clock.png" alt="">36<img src="icon/comments.png" alt="">2.6k</p>
-                </article>
+                <div class="home_courses_container">
+                    <article class="home_courses_best">
+                        <h3>Best Courses For Learning English Courses</h3>
+                        <img src="background/womantree.png" alt="" class="home_courses_gallery_item">
+                        <div class="home_courses_introduced_warmer"><img src="background/frank.png" alt=""><p>Warmer</p></div>
+                        <div class="home_courses_introduced_but">English</div>
+                        <p class="home_courses_introduced_stars"><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt=""></p>
+                        <div class="home_courses_introduced_price">$59,95</div>
+                        <div class="home_courses_horizontal_line"></div>
+                        <div class="home_courses_introduced_l"><img src="icon/subtilni_users.png" alt="">25</div>
+                        <div class="home_courses_introduced_m"><img src="icon/clock.png" alt="">36</div>
+                        <div class="home_courses_introduced_r"><img src="icon/comments.png" alt="">2.5k</div> 
+                    </article>
 
-                <article class="home_courses_learning">
-                    <h3>Learning About It Consulting Business Solutions</h3>
-                    <img src="background/womanthink.png" alt="">
-                    <p><img src="background/frank.png" alt="">Warmer</p>
-                    <img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt="">
-                    <p><img src="icon/subtilni_users.png" alt="">25 <img src="icon/clock.png" alt="">36<img src="icon/comments.png" alt="">2.6k</p>    
-                </article>
+                    <article class="home_courses_learning">
+                        <h3>Learning About It Consulting Business Solutions</h3>
+                        <img src="background/womanthink.png" alt="" class="home_courses_gallery_item">
+                        <div class="home_courses_introduced_warmer"><img src="background/frank.png" alt=""><p>Warmer</p></div>
+                        <div class="home_courses_introduced_but">Bussiness</div>
+                        <p class="home_courses_introduced_stars"><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt=""></p>
+                        <div class="home_courses_introduced_price">$59,95</div>
+                        <div class="home_courses_horizontal_line"></div>
+                        <div class="home_courses_introduced_l"><img src="icon/subtilni_users.png" alt="">25</div>
+                        <div class="home_courses_introduced_m"><img src="icon/clock.png" alt="">36</div>
+                        <div class="home_courses_introduced_r"><img src="icon/comments.png" alt="">2.6k</div>         
+                    </article>
 
-                <article class="home_courses_introduced">
-                    <h3>Introduced About Basic Web Desing For Beginners</h3>
-                    <img src="background/studentsstudy.png" alt="">
-                    <p><img src="background/frank.png" alt="">Warmer</p>
-                    <img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt="">
-                    <p><img src="icon/subtilni_users.png" alt="">25 <img src="icon/clock.png" alt="">36<img src="icon/comments.png" alt="">2.6k</p>    
-                </article>
-             </section>
+                    <article class="home_courses_introduced">
+                            <h3>Introduced About Basic Web Desing For Beginners</h3>
+                            <img src="background/studentsstudy.png" alt="" class="home_courses_gallery_item">
+                            <div class="home_courses_introduced_warmer"><img src="background/frank.png" alt=""><p>Warmer</p></div>
+                            <div class="home_courses_introduced_but">Design</div>
+                            <p class="home_courses_introduced_stars"><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt=""></p>
+                            <div class="home_courses_introduced_price">$59,95</div>
+                            <div class="home_courses_horizontal_line"></div>
+                            <div class="home_courses_introduced_l"><img src="icon/subtilni_users.png" alt="">25</div>
+                            <div class="home_courses_introduced_m"><img src="icon/clock.png" alt="">36</div>
+                            <div class="home_courses_introduced_r"><img src="icon/comments.png" alt="">2.6k</div>
+                    </article>
+                </div>
+                <button class="home_courses_button"><b><span style="color: #545457;"> VIEW ALL EVENTS<span style="font-size: 30px;">&#x27F6;</span></span></b></button>
+
+            </section>
         </article>
 
         <article class="home_photo">
             <h4>• • • Photo & Album • • •</h4>
-            <section>
+            <section class="home_photo_section">
                 <h2>Campus Gallery</h2>
                 <nav>
-                    Show all  University  Group study  Awards  Students  Teachers  Campus
+                    <ul class="home_photo_navigation">
+                        <li><a href="#showall">Show All</a></li>
+                        <li><a href="#awards">Awards</a></li>
+                        <li><a href="#awards">Awards</a></li>
+                        <li><a href="#students">Students</a></li>
+                        <li><a href="#teachers">Teachers</a></li>
+                        <li><a href="#campus">Campus</a></li>
+                    </ul>
                 </nav>
-                <article class="home_photo_university">
-                    <h3>Univesity</h3>
-                    <p>Intelectual communication</p>
-                    <img src="background/studentsoutside.png" alt="">
-                </article>
 
-                <article class="home_photo_group">
-                    <h3>Group study</h3>
-                    <p>University Campus</p>
-                    <img src="background/maninlibrary.png" alt="">
-                </article>  
+                <div class="home_photo_container">
+                    <article class="home_photo_university">
+                        <h3>Univesity</h3>
+                        <p><b>Intelectual communication</b></p>
+                        <img src="background/studentsoutside.png" alt="">
+                    </article>
 
-                <article class="home_photo_awards">
-                    <h3>Awards</h3>
-                    <img src="background/girlwithbooks.png" alt="">
-                </article>
+                    <article class="home_photo_group">
+                        <h3>Group study</h3>
+                        <p><b>University Campus</b></p>
+                        <img src="background/maninlibrary.png" alt="">
+                    </article>  
 
-                <article class="home_photo_students">
-                    <h3>Students</h3>
-                    <img src="background/groupofstudents.png" alt="">
-                </article>
+                    <article class="home_photo_awards">
+                        <h3>Awards</h3>
+                        <img src="background/girlwithbooks.png" alt="">
+                    </article>
 
-                <article class="home_photo_teachers">
-                    <h3>Teachers</h3>
-                    <img src="background/teacher.png" alt=""> 
-                </article>
+                    <article class="home_photo_students">
+                        <h3>Students</h3>
+                        <img src="background/groupofstudents.png" alt="">
+                    </article>
 
-                <article class="home_photo_campus">
-                    <h3>Campus</h3>
-                    <img src="background/campus.png" alt="">
-                </article>
+                    <article class="home_photo_teachers">
+                        <h3>Teachers</h3>
+                        <img src="background/teacher.png" alt=""> 
+                    </article>
+
+                    <article class="home_photo_campus">
+                        <h3>Campus</h3>
+                        <img src="background/campus.png" alt="">
+                    </article>
+                </div>
             </section>
         </article>
 
@@ -255,33 +283,71 @@
             <h4>• • • Team Members • • •</h4>
             <section>
                 <h2>Expert instructors</h2>
-                <article class="home_instructors_somalia">
-                    <h3>Somalia D Silva</h3>
-                    <img src="background/jaconwalker.png" alt="">
-                    <p>Math Teacher<br>
-                        <img src="icon/subtilni_kniha.png" alt="">750+ Courses</p>
-                </article>   
+                <div class="home_instructors_container">
+                    <article class="home_instructors_somalia">
+                        <h3>Somalia D Silva</h3>
+                        <img src="background/jaconwalker.png" alt="" class="home_instructors_item">
+                        <p>Math Teacher</p>
+                        <p class="home_instructors_p"><img src="icon/subtilni_kniha.png" alt=""> 750+ Courses</p>
+                        <div class="home_instructors_horizontal_line"></div>
+                        <div class="home_instructors_dropup">
+                            <button class="home_dropup_button">+</button>
+                            <div class="home_dropup_content">
+                                <a href="https://twitter.com/?lang=en" title="link to course"><div class="home_dropup_content_tw"><img src="icon/twitter.png" alt=""></div></a>
+                                <a href="https://www.youtube.com/" title="link to course list"><div class="home_dropup_content_yt"><img src="icon/youtube_white.png" alt=""></div></a>
+                                <a href="https://www.facebook.com/" title="link to course details"><div class="home_dropup_content_fb"><img src="icon/facebook_header.png" alt=""></div></a>
+                            </div>
+                        </div> 
+                    </article>   
 
-                <article class="home_instructors_david">
-                    <h3>David D Warmer</h3>
-                    <img src="background/frankmalcov.png" alt="">
-                    <p>English Teacher<br>
-                        <img src="icon/subtilni_kniha.png" alt="">3850+ Courses</p>
-                </article>
+                    <article class="home_instructors_david">
+                        <h3>David D Warmer</h3>
+                        <img src="background/frankmalcov.png" alt="" class="home_instructors_item">
+                        <p>English Teacher</p>
+                        <p class="home_instructors_p"><img src="icon/subtilni_kniha.png" alt=""> 3850+ Courses</p>
+                        <div class="home_instructors_horizontal_line"></div>
+                        <div class="home_instructors_dropup">
+                            <button class="home_dropup_button">+</button>
+                            <div class="home_dropup_content">
+                                <a href="https://twitter.com/?lang=en" title="link to course"><div class="home_dropup_content_tw"><img src="icon/twitter.png" alt=""></div></a>
+                                <a href="https://www.youtube.com/" title="link to course list"><div class="home_dropup_content_yt"><img src="icon/youtube_white.png" alt=""></div></a>
+                                <a href="https://www.facebook.com/" title="link to course details"><div class="home_dropup_content_fb"><img src="icon/facebook_header.png" alt=""></div></a>
+                            </div>
+                        </div> 
+                    </article>
 
-                <article class="home_instructors_xavi">
-                    <h3>Xavi Toni Crusse</h3>
-                    <img src="background/michael.png" alt="">
-                    <p>Computer Teacher<br>
-                        <img src="icon/subtilni_kniha.png" alt="">632+ Courses</p>
-                </article>
+                    <article class="home_instructors_xavi">
+                        <h3>Xavi Toni Crusse</h3>
+                        <img src="background/michael.png" alt="" class="home_instructors_item">
+                        <p>Computer Teacher</p>
+                        <p class="home_instructors_p"><img src="icon/subtilni_kniha.png" alt=""> 632+ Courses</p>
+                        <div class="home_instructors_horizontal_line"></div>
+                        <div class="home_instructors_dropup">
+                            <button class="home_dropup_button">+</button>
+                            <div class="home_dropup_content">
+                                <a href="https://twitter.com/?lang=en" title="link to course"><div class="home_dropup_content_tw"><img src="icon/twitter.png" alt=""></div></a>
+                                <a href="https://www.youtube.com/" title="link to course list"><div class="home_dropup_content_yt"><img src="icon/youtube_white.png" alt=""></div></a>
+                                <a href="https://www.facebook.com/" title="link to course details"><div class="home_dropup_content_fb"><img src="icon/facebook_header.png" alt=""></div></a>
+                            </div>
+                        </div> 
+                    </article>
 
-                <article class="home_instructors_shaine">
-                    <h3>Shaine Watson</h3>
-                    <img src="background/raycarter.png" alt="">
-                    <p>Web Designer<br>
-                        <img src="icon/subtilni_kniha.png" alt="">985+ Courses</p>
-                </article>
+                    <article class="home_instructors_shaine">
+                        <h3>Shaine Watson</h3>
+                        <img src="background/raycarter.png" alt="" class="home_instructors_item">
+                        <p>Web Designer</p>
+                        <p class="home_instructors_p"><img src="icon/subtilni_kniha.png" alt=""> 985+ Courses</p>
+                        <div class="home_instructors_horizontal_line"></div>
+                        <div class="home_instructors_dropup">
+                            <button class="home_dropup_button">+</button>
+                            <div class="home_dropup_content">
+                                <a href="https://twitter.com/?lang=en" title="link to course"><div class="home_dropup_content_tw"><img src="icon/twitter.png" alt=""></div></a>
+                                <a href="https://www.youtube.com/" title="link to course list"><div class="home_dropup_content_yt"><img src="icon/youtube_white.png" alt=""></div></a>
+                                <a href="https://www.facebook.com/" title="link to course details"><div class="home_dropup_content_fb"><img src="icon/facebook_header.png" alt=""></div></a>
+                            </div>
+                        </div> 
+                    </article>
+                </div>
             </section>
         </article>
 
@@ -289,144 +355,157 @@
             <h4>• • • Latest Events • • •</h4>
             <section>
                 <h2>Upcoming Events</h2>
-                <article class="home_events_web">
-                    <h3>Web Design & Development Conference 2020</h3>
-                    <img src="background/happypeople.png" alt="">
-                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>
-                        Aenean porttitor maximus. Praesent quis lacus. Aenean ac tellus interdum.</p>
-                </article>
+                <div class="home_events_container">
+                    <article class="home_events_web">
+                        <h3>Web Design & Development Conference 2020</h3>
+                        <img src="background/happypeople.png" alt="" class="home_events_web_img">
+                        <div class="home_events_web_stats_cal"><img src="icon/calendar.png" alt=""> 25 NOV 2020</div> 
+                        <div class="home_events_web_stats_clo"><img src="icon/clock.png" alt=""> 08 AM - 09 PM</div>
+                        <div class="home_events_web_stats_map"><img src="icon/map_mark.png" alt=""> PARIS FRANCE</div>
+                        <div class="home_events_web_dot"><p>$20</p></div>
+                        <p class="home_events_web_p">Orci varius natoque penatibus et, nascetur ridiculus mus.
+                            Aenean porttitor<br> maximus. Praesent. Aenean ac tellus interdum.</p>
+                        <button class="home_events_web_button"><b> JOIN EVENT <span style="font-size: 30px;">&#x27F6;</span></b></button>
+                    </article>
 
-                <aside>
                     <article class="home_events_annual">
                         <h3>Annual Conference 2020</h3>
-                        <img src="background/graduate.png" alt="">
-                        <p><img src="icon/calendar.png" alt=""> 25 NOV 2020 <img src="icon/clock.png" alt=""> 08 AM - 09 PM</p>
+                        <img src="background/graduate.png" alt="" class="home_events_item">
+                        <div class="home_events_annual_dot"><p>$20</p></div>
+                        <button class="home_events_annual_button"><b> JOIN EVENT <span style="font-size: 30px;">&#x27F6;</span></b></button>
+                        <p> <img src="icon/calendar.png" alt=""> 25 NOV 2020 <img src="icon/clock.png" alt=""> 08 AM - 09 PM</p>
                     </article>
 
                     <article class="home_events_annual_con">
                         <h3>Annual Conference 2020</h3>
-                        <img src="background/twoguyssits.png" alt="">
+                        <img src="background/twoguyssits.png" alt="" class="home_events_item">
+                        <div class="home_events_annual_con_dot"><p>$20</p></div>
                         <p><img src="icon/calendar.png" alt=""> 25 NOV 2020 <img src="icon/clock.png" alt=""> 08 AM - 09 PM</p>
+                        <button class="home_events_annual_con_button"><b> JOIN EVENT <span style="font-size: 30px;">&#x27F6;</span></b></button>
                     </article>
-                </aside>
+                </div>
+
+                <button class="home_events_button"><b> VIEW ALL EVENTS <span style="font-size: 30px;">&#x27F6;</span></b></button>
             </section>
         </article>
 
         <article class="home_students">
-            <h4>• • • Popular Categories • • •</h4>
-            <section >
+            <h4 class="home_students_h4">• • • Popular Categories • • •</h4>
+            <section class="">
                 <h2>What Our Students Say</h2>
-                <article class="home_students_jack">
-                    <h4>Jack Benton</h4>
-                    <p>Donec hendrerit elementum nunc <br> 
-                        morbi gravidas ipsum id ornare<br> 
-                        placerat nibh leo rutrum leo<br>
-                        in interdum nunc tortor non<br>
-                        dolor sed accumsan ornare</p>
-                    
-                    <img src="icon/quote.png" alt="">
-                </article>
+                <div class="home_students_back"></div>
+                <div class="home_students_fore"></div>
+                <img src="icon/quote.png" alt="" class="home_students_quote">
+                <img src="background/frank.png" alt="" class="home_students_profile">
+                <div class="home_students_button">
+                    <button  onclick="plusSlides(-1)" type="button"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                    <button  onclick="plusSlides(1)" type="button"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+                <div class="home_students_slideshow-container">
+                    <article class="home_students_jack mySlides">
+                        <h4>Jack Benton</h4>
+                        <p>Donec hendrerit elementum nunc <br> 
+                            morbi gravidas ipsum id ornare<br> 
+                            placerat nibh leo rutrum leo<br>
+                            in interdum nunc tortor non<br>
+                            dolor sed accumsan ornare</p>
+                    </article>
 
-                <article class="home_students_sally">
-                    <h4>Sally Taylor</h4>
-                    <p>Vestibulum ante magna tempor quis <br>
-                        dapibus et posuere vitae ante<br>
-                        suspendisse lectus dolor aliquet<br>
-                        in pica non finibus aliquam<br> 
-                        ante quisque id dapibus tortor</p>
-                    
-                    <img src="icon/quote.png" alt="">
-                </article>
+                    <article class="home_students_sally mySlides">
+                        <h4>Sally Taylor</h4>
+                        <p>Vestibulum ante magna tempor quis <br>
+                            dapibus et posuere vitae ante<br>
+                            suspendisse lectus dolor aliquet<br>
+                            in pica non finibus aliquam<br> 
+                            ante quisque id dapibus tortor</p>
+                    </article>
 
-                <article class="home_students_sausa">
-                    <h4>Sausa Fernandez</h4>
-                    <p>In hac habitasse set platea dictumst<br>
-                        Vivamus rhoncus inse semper nulla<br>
-                        nec efficitur lorem maximus non<br>
-                        ante ipsum primis in faucibus<br>
-                        orci luxus ultrices posuere</p>
-                
-                    <img src="icon/quote.png" alt="">
-                </article>
+                    <article class="home_students_sausa mySlides">
+                        <h4>Sausa Fernandez</h4>
+                        <p>In hac habitasse set platea dictumst<br>
+                            Vivamus rhoncus inse semper nulla<br>
+                            nec efficitur lorem maximus non<br>
+                            ante ipsum primis in faucibus<br>
+                            orci luxus ultrices posuere</p>
+                    </article>
 
-                <article class="home_students_sofia">
-                    <h4>Sofia Martinez</h4>
-                    <p>Phasellus maximus can bibendu mauris<br>
-                        luctus quisque quam mi interdu<br> 
-                        ac urna tempor elementum vulputate<br>
-                        est lorem ipsum dolor sit amet<br> 
-                        arita consectetur adipiscing</p>
-                    
-                    <img src="icon/quote.png" alt="">
-                </article>    
+                    <article class="home_students_sofia mySlides">
+                        <h4>Sofia Martinez</h4>
+                        <p>Phasellus maximus can bibendu mauris<br>
+                            luctus quisque quam mi interdu<br> 
+                            ac urna tempor elementum vulputate<br>
+                            est lorem ipsum dolor sit amet<br> 
+                            arita consectetur adipiscing</p>
+                    </article>
 
-                <article class="home_students_katie">
-                    <p>Vestibulum volutpat alt urna eget<br> 
-                        tempus ex ligula congue metus eu<br>
-                        consectetur ipsum mi consectetur<br>
-                        ligula etiam a ante turpis donec<br> 
-                        congue maximus tellus sit</p>
-                    <h4>Katie Jackson</h4>
-                    <img src="icon/quote.png" alt="">
-                </article>
+                    <article class="home_students_katie mySlides">
+                        <h4>Katie Jackson</h4>
+                        <p>Vestibulum volutpat alt urna eget<br> 
+                            tempus ex ligula congue metus eu<br>
+                            consectetur ipsum mi consectetur<br>
+                            ligula etiam a ante turpis donec<br> 
+                            congue maximus tellus sit</p>
+                    </article>
 
-                <article class="home_students_jason">
-                    <h4>Jason Walker</h4>
-                    <p>Pellentesque ac orci et urna cras<br>
-                        feugiat ligula quis volutpat trist<br>
-                        ligula turpis scelerisque nibh et<br>
-                        ultrices orci mi vitae lectus duis</p>
-                    
-                    <img src="icon/quote.png" alt="">
-                </article>  
+                    <article class="home_students_jason mySlides">
+                        <h4>Jason Walker</h4>
+                        <p>Pellentesque ac orci et urna cras<br>
+                            feugiat ligula quis volutpat trist<br>
+                            ligula turpis scelerisque nibh et<br>
+                            ultrices orci mi vitae lectus duis</p>
+                    </article>
 
-                <article class="home_students_ray">
-                    <h4>Ray Carter</h4>
-                    <p>Donec a eros augue estibulum at<br>
-                        sodales ni aliquet sodales augue et<br>
-                        maximus velit mauris finibus turpis<br>
-                        quis ornare fringilla hen in hac <br>
-                        habitasse ins platea dictumst</p>
-                    
-                    <img src="icon/quote.png" alt="">
-                </article>    
+                    <article class="home_students_ray mySlides">
+                        <h4>Ray Carter</h4>
+                        <p>Donec a eros augue estibulum at<br>
+                            sodales ni aliquet sodales augue et<br>
+                            maximus velit mauris finibus turpis<br>
+                            quis ornare fringilla hen in hac <br>
+                            habitasse ins platea dictumst</p>
+                    </article>
 
-                <article class="home_students_frank">
-                    <h4>Frank Malcov</h4>
-                    <p>In blandit gravida nibh a ultrici<br> 
-                        etiam id diam porttitor aliquet ex<br>
-                        vitae posuere felis nulla facilisi<br>
-                        aliquam at magna lorem interdum et<br>
-                        malesuada famesorci vitae</p>
-                    
-                    <img src="icon/quote.png" alt="">
-                </article>
+                    <article class="home_students_frank mySlides">
+                        <h4>Frank Malcov</h4>
+                        <p>In blandit gravida nibh a ultrici<br> 
+                            etiam id diam porttitor aliquet ex<br>
+                            vitae posuere felis nulla facilisi<br>
+                            aliquam at magna lorem interdum et<br>
+                            malesuada famesorci vitae</p>
+                    </article>
+                </div>
             </section>
         </article>
 
-        <article class="home_instructors">
+        <article class="home_become">
             <h4>• • • Build A Career</h4>
-            <section class="home_instructors_become">
+            <section class="home_become_section">
                 <h2>Become an Instructor</h2>
-                <img src="background/happyman.png" alt="">
-                <img src="background/happygirl.png" alt="">
-                <p>Etiam aliquam nibh sed iaculis. Sed luctus fragile lorem, non <br>
+                <img src="background/happyman.png" alt="" class="home_become_img_back">
+                <img src="background/happygirl.png" alt="" class="home_become_img_fore">
+                <div class="home_become_p"><p>Etiam aliquam nibh sed iaculis. Sed luctus fragile lorem, non <br>
                     posuere nisl. Vivamus sed lacinia lacus sit et laoreet urna.<br> 
-                    Vivamus at massa in lorem pharetra tempor. Sed orci.</p>
+                    Vivamus at massa in lorem pharetra tempor. Sed orci.</p></div>
 
-                <article class="home_instructors_digitalization">
-                    <img src="icon/notebook.png" alt="">
+                <article class="home_become_digitalization">
                     <h4>Digitalization</h4>
+                    <img src="icon/notebook.png" alt="">
+
                     <p>Donec purus nulla aliquet <br>
                         sed mattis sed</p>
-                </article>       
+                </article>
 
-                <article class="home_instructors_book">
-                    <img src="icon/book_srdicko.png" alt="">
+                <div class="home_become_vertical_line"></div>
+
+                <article class="home_become_book">
                     <h4>Book Friendly</h4>
+                    <img src="icon/book_srdicko.png" alt="">
+
                     <p>Suspendisse iaculis mattis enim<br> 
                         vitae aliquam lorem.</p>  
-                </article>        
+                </article>
+                <button class="home_become_button"><b> JOINT  WITH US <span style="font-size: 30px;">&#x27F6;</span></b></button>
+                <button class="home_become_button_white"><b> BECOME A PARTNER</b></button>
+
             </section>
         </article>
 
@@ -434,32 +513,40 @@
             <h4>• • • Artices & Tipes • • • </h4>
             <section>
                 <h2>Latest News & Blog</h2>
-                <article class="home_latest_learning">
-                    <h3>Learning Resources in<br>
-                        Chalennec Times Online<br>
-                        Workshop</h3>
-                    <img src="background/coffee.png" alt="">
-                    <p><img src="icon/calendar.png" alt=""> 25 NOV 2020
-                        <img src="icon/comments.png" alt=""> COM(30)</p> 
-                </article>
+                <div class="home_latest_container">
+                    <article class="home_latest_learning">
+                        <h3>Learning Resources in<br>
+                            Chalennec Times Online<br>
+                            Workshop</h3>
+                        <img src="background/coffee.png" alt="" class="home_latest_item">
+                        <div class="home_latest_p"><p><img src="icon/calendar.png" alt=""> 25 NOV 2020
+                            <img src="icon/comments.png" alt=""> COM(30)</p> </div>
+                            <div class="home_latest_dav"><img src="background/frank.png" alt=""><p>David Simala</p></div>
+                            <button class="home_latest_button"><b><span style="font-size: 30px;">&#x27F6;</span></b></button>
+                    </article>
 
-                <article class="home_latest_djang">
-                    <h3>Djang Highlist Models<br>
-                        Admin And Harness Rela<br>
-                        Tiona Database</h3>
-                    <img src="background/girlstudy.png" alt="">
-                    <p><img src="icon/calendar.png" alt=""> 25 NOV 2020
-                        <img src="icon/comments.png" alt=""> COM(30)</p>
-                </article>
+                    <article class="home_latest_djang">
+                        <h3>Djang Highlist Models<br>
+                            Admin And Harness Rela<br>
+                            Tiona Database</h3>
+                        <img src="background/girlstudy.png" alt="" class="home_latest_item">
+                        <div class="home_latest_p"><p><img src="icon/calendar.png" alt=""> 25 NOV 2020
+                            <img src="icon/comments.png" alt=""> COM(30)</p></div>
+                            <div class="home_latest_dav"><img src="background/frank.png" alt=""><p>David Simala</p></div>
+                            <button class="home_latest_button"><b><span style="font-size: 30px;">&#x27F6;</span></b></button>
+                    </article>
 
-                <article class="home_latest_smash">
-                    <h3>Smash Podcast Episode<br>
-                        With Laura Kalbag What<br>
-                        Is Online Privacy</h3>
-                    <img src="background/laughingpeople.png" alt=""><br>
-                    <p><img src="icon/calendar.png" alt=""> 25 NOV 2020
-                        <img src="icon/comments.png" alt=""> COM(30)</p>
-                </article>
+                    <article class="home_latest_smash">
+                        <h3>Smash Podcast Episode<br>
+                            With Laura Kalbag What<br>
+                            Is Online Privacy</h3>
+                        <img src="background/laughingpeople.png" alt="" class="home_latest_item">
+                        <div class="home_latest_p"><p><img src="icon/calendar.png" alt=""> 25 NOV 2020
+                            <img src="icon/comments.png" alt=""> COM(30)</p></div>
+                            <div class="home_latest_dav"><img src="background/frank.png" alt=""><p>David Simala</p></div>
+                            <button class="home_latest_button"><b><span style="font-size: 30px;">&#x27F6;</span></b></button>
+                    </article>
+                </div>
             </section>
         </article>
 
@@ -473,66 +560,90 @@
             <img src="icon/sumit_reklama.png" alt="">
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
     <footer>
-        <nav>
-            <img src="icon/capka.png" alt=""> <b>Edu</b>Plus
-            <a href="https://www.facebook.com/" title="link to facebook"><img src="icon/facebook.png" alt="">Facebook</a> 
-            <a href="https://twitter.com/?lang=en" title="link to twitter" ><img src="icon/twitter.png" alt="">Twitter </a> 
-            <a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube.png" alt="">Youtube</a> 
-            <a href="https://www.instagram.com/" title="link to instagram"><img src="icon/instagram.png" alt="">Instagram</a>
+        <nav class="footer_navigation">
+            <div class="footer_navigation_img"><img src="icon/capka.png" alt=""><p><b>Edu</b>Plus</p></div>
+            <div class="footer_navigation_fb"><a href="https://www.facebook.com/" title="link to facebook"><img src="icon/facebook.png" alt=""><p>Facebook</p></a> </div>
+            <div class="footer_navigation_tw"><a href="https://twitter.com/?lang=en" title="link to twitter" ><img src="icon/twitter_back.png" alt=""><p>Twitter</p></a> </div>
+            <div class="footer_navigation_yt"><a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube.png" alt=""><p>Youtube</p></a></div>
+            <div class="footer_navigation_ig"><a href="https://www.instagram.com/" title="link to instagram"><img src="icon/instagram.png" alt=""><p>Instagram</p></a></div>
+            <div class="footer_navigation_line"></div>
         </nav>
-        <article>
-            <h3>Our Courses</h3>  
-            Web Development
-            Color Combinations
-            Business Studies
-            Software Development
-            Engineering
-            English Learning
-            Advance WordPress              
-            Graphic Design
-            Basic PSD to HTM
-        </article>
-                
-        <article>
-            <h3>Company</h3>
-            About Eduket
-            Meet Advisors
-            Join a career              
-            Latest courses
-            Newsletters
-        </article>
 
-        <article>
+        <section class="footer_courses">
+            <h3>Our Courses</h3>
+            <ul>
+                <div>
+                    <li><img src="icon/orange_dot.png" alt=""> Web Development</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Business Studies</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Computer Engineering</li>
+                    <li><img src="icon/orange_dot.png" alt=""> English Learning</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Graphics Design</li>
+                </div>
+
+                <div>
+                    <li><img src="icon/orange_dot.png" alt=""> Color Combination</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Software Development</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Photography</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Advanced WordPress</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Basic PSD To HTML</li>
+                </div>
+            </ul>
+        </section>
+
+        <section class="footer_company">
+            <h3>Company</h3>
+            <ul>
+                <li><img src="icon/orange_dot.png" alt=""> Meet Advisors</li>
+                <li><img src="icon/orange_dot.png" alt=""> Join A Career</li>
+                <li><img src="icon/orange_dot.png" alt=""> Latest Courses</li>
+                <li><img src="icon/orange_dot.png" alt=""> About Eduket</li>
+                <li><img src="icon/orange_dot.png" alt=""> Newsletters</li>
+            </ul>
+        </section>
+
+        <div class="footer_button">
+            <a href="#"><i class="fa fa-caret-up"></i></a>
+        </div>
+
+        <section class="footer_newsletter">
             <h3>Newletters</h3>
-            <p>Cras elementum Nam quis nulla Praesent id justo in neque <br>erat volutpat Nulla turpis magna curse amen</p>
+            <p>Cras elementum Nam quis nulla Praesent id justo in<br>erat volutpat Nulla turpis magna curse amen</p>
             <form>
                 <input type="text" name="name" placeholder="Enter Your Email">
-                <input type="submit" name="Submit" value="Odeslat">
+                <button><b><span style="font-size: 30px;">&#x27F6;</span></b></button>
             </form> 
-        </article>
+        </section>
 
-        <div>
-            <p>Copyright &copy; 2020 <b>Edu</b>Plus All Rights Reserved</p>
+        <div class="footer_copyright">
+            <p>Copyright &copy; 2020 <span><b>Edu</b>Plus</span> All Rights Reserved</p>
         </div>
     </footer>
+    
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          slides[slideIndex-1].style.display = "block";  
+        }
+    </script>
+        
 </body>
 </html>

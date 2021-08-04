@@ -3,160 +3,359 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Marek Potucek">
-    <title>Blog Details</title>
+    <title>EduPlus Blog Details </title>
+    <link rel="shortcut icon" type="image/png" href="icon/dalsi_capka.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
-<body>
-    <header>
-        <a href="Home.html" title="link to homepage"><img src="icon/kloboucek.png" alt="logo"> EduPlus</a>
-        <a href="Home.html" title="link to home"> Home</a>
-        <a href="Our_courses.html" title="link to our courses">Courses</a> 
-        <a href="Event_details.html" title="link to our event details">Events</a>
-        <a href="FAQ.html" title="link to faq">Pages</a>
-        <a href="Blog_standard.html" title="link to blog grip">Blog</a>
-        <a href="Contact_us.html" title="link to contact us">Contact</a>
-        <a href="https://www.facebook.com/" title="link to facebook"><img src="icon/facebook_header.png" alt=""></a>
-        <a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube_header.png" alt=""></a>
-        <img src="icon/mini_user.png" alt=""> SIGN IN
-        <img src="icon/bar.png" alt="">
+<body class="universal_body body_details">
+    <header class ="universal_header">
+        <div class="universal_logo">
+            <a href="Home.html" title="link to homepage"><img src="icon/kloboucek.png" alt="logo"> <span><b>Edu</b>Plus</span></a>
+        </div>
+        <nav>
+            <div class="universal_navigation">
+                <div class="universal_dropdown_menu">
+                    <button class="universal_dropdown_button">Home
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="universal_dropdown-content">
+                        <a href="About_us.html" title="link to about us page">About us</a>
+                        <a href="Our_courses.html" title="link to our courses">Our Courses</a>
+                        <a href="Event_details.html" title="link to event details">Event Details</a>
+                        <a href="Instructor_details.html" title="link to instructor details">Instructor Details</a>
+                    </div>
+                </div>
+
+                <div class="universal_dropdown_menu">
+                    <button class="universal_dropdown_button">Courses
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="universal_dropdown-content">
+                        <a href="Course_details.html" title="link to course">Course</a>
+                        <a href="Our_courses.html" title="link to course list">Course List</a>
+                        <a href="Event_details.html" title="link to course details">Course Details</a>
+                    </div>
+                </div> 
+
+                <div class="universal_dropdown_menu">
+                    <button class="universal_dropdown_button">Faq
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="universal_dropdown-content">
+                        <a href="FAQ.html" title="link to faq">Pages</a>
+                    </div>
+                </div> 
+                
+                <div class="universal_dropdown_menu">
+                    <button class="universal_dropdown_button">Blog
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="universal_dropdown-content">
+                        <a href="Blog_standard.html" title="link to course">Blog grid</a>
+                        <a href="Blog_details.html" title="link to course">Blog Datails</a>
+                    </div>
+                </div>
+                <div class="universal_navigation_contact">
+                    <a href="Contact_us.html" title="link to course">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="universal_header_linkfb">
+            <a href="https://www.facebook.com/" title="link to facebook" class="linkfb"><img src="icon/facebook_header.png" alt=""></a>
+        </div>
+        <div class="universal_header_links">
+            <a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube_header.png" alt=""></a>
+            <a href="" title=""><img src="icon/mini_user.png" alt=""> SIGN IN</a> 
+        </div>
+        
+        <div class="universal_header_bar">
+            <img src="icon/bar.png" alt="">
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h1>Blog Details</h1>
-            <article>
-                <img src="icon/hodne_sede_background.png" alt="">
+
+    <main class="details_main">
+        <article class="universal_top">
+            <div class="universal_top_back"></div>
+            <div class="universal_top_h2"><h2>Blog Details</h2></div>
+            <div class="universal_top_h4"><h4>Home > Blog Details</h4></div>
+        </article>
+   
+        <section class="details">
+            <article class="details_inspire1">
+                <img src="background/grid_inspire2.png" alt="" class="standard_inspire_img2">
                 <h2>Inspire Design Desicion With Ott Storch When Idea<br>
                 How To Space And Kern Punctuation</h2>
-                <nav>
-                    <img src="icon/mini_user.png" alt=""> By Somalia Doe <img src="icon/calendar.png" alt="">25 Nov 2020 <img src="icon/comments.png" alt="">Comments (05) <img src="icon/nemam.png" alt=""> Like (1K)
-                </nav>
-                <p>Curabitur quam est, ultricies non orci varius, tempor lacinia lacus<br>
-                    proin a sapien vitae velit bibendum sagittis vitae sed nisi. Sed<br>
-                    porta into rutrum lorem, ac sagittis sem dictum quis. Aliquam et<br>
-                    facilisis ante quis velit lectus viverra, tincidunt dui posuere<br>
-                    vel urna mi. In hac habitasse platea dictumst. Fusce vel finibus <br>
-                    massa. Suspendisse potenti. Nunc ut eros quam.<br></p>     
+                <div class="details_inspire_des">DESIGN</div>
+                <div class="details_inspire_icons">
+                    <div class="details_inspire_by"><img src="icon/mini_user.png" alt=""> By Somalia Doe</div>
+                    <div class="details_inspire_nov"><img src="icon/calendar.png" alt=""> 25 Nov 2020</div>
+                    <div class="details_inspire_com"><img src="icon/comments.png" alt=""> Comments (05)</div>
+                    <div class="details_inspire_lik"><img src="icon/nemam.png" alt=""> Like (1K)</div>
+                </div>
+                <p>Sed ut perspiciatis unde omnis iste natus error si accusantium doloremque laudantium, totam<br>
+                    rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto vitae dicta suntexplicabo.<br>
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut, sed quia consequuntur magni<br>
+                    dolores eos qui ratione voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia dolor<br>
+                    sit amet, consectetur, adipisci velit, sed quia non numquam eius modi  ut labore et dolore<br>
+                    magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exe ullacorporis<br>
+                    suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur Quure reprehenderit qui in<br>
+                    ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem</p>     
                 <h3>Why Needs Education</h3>
-                <p>Integer dui tortor, commodo id ipsum non, varius fermentum lacus.<br>
-                    Mauris diam nisi, imperdiet non  sit amet, porttitor pellentesque<br>
-                    massa velit. Nullam scelerisque tincidunt vestibulum. Nullam suscipit<br>
-                    tempor sagittis. Pellentesque.<br><img src="icon/hodne_sede_background.png" alt=""></p>
-                <p><img src="icon/check.png" alt="">Inspired Design Decisions With Neville Brody: Design Cannot Remain Neutral</p>
-                <p><img src="icon/check.png" alt="">Avoid Keyboard Event-Related Bugs In Browser-Based Transliteration</p>
-                <p><img src="icon/check.png" alt="">Embrace The Possibilities (March 2020 Wallpapes)</p>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernaturodit autsed quia consequuntur magni<br>
+                    dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisdolorem ipsum quia dolor<br>
+                    sit amet, consectetur, adipisci velit, sed quia non numquam eius modiidunt ut labore et dolore<br>
+                    magnam aliquam quaerat voluptatem enim ad minima veniam</p>
+                    
+                <img src="background/grid_inspire3.png" alt="" class="standard_inspire_img4">
+                
+                <div class="details_check">
+                    <p><img src="icon/check.png" alt="">Inspired Design Decisions With Neville Brody: Design Cannot Remain Neutral</p>
+                    <p><img src="icon/check.png" alt="">Avoid Keyboard Event-Related Bugs In Browser-Based Transliteration</p>
+                    <p><img src="icon/check.png" alt="">Embrace The Possibilities (March 2020 Wallpapes)</p>
+                </div>
+
                 <h3>Best Articles For Web Design</h3>
-                <p>Integer dui tortor, commodo id ipsum non, varius fermentum lacus.<br>
-                    Mauris diam nisi, imperdiet non  sit amet, porttitor pellentesque<br>
-                    massa velit. Nullam scelerisque tincidunt vestibulum. Nullam suscipit<br>
-                    tempor sagittis. Pellentesque</p>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia conse<br>
+                    dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, quiquia dolor<br>
+                    sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora inc et dolore<br>
+                    magnam aliquam quaerat voluptatem enim ad minima veniam</p>
             </article>
 
-            <article>
+            <article class="details_blue">
                 <h3>How To Build An Accessible Front-End Application<br>
                 With Chakra UI And Nuxt.js</h3>
                 <p><img src="icon/subtilni_quote.png" alt=""> Norman S. Roberts</p>
             </article>
 
-            <article>
+            <article class="details_tags">
+                <p><b>Tags: </b>Bussines Kart, Design & Branding</p>
+                <div class="details_tags_line"></div>
+            </article>
+
+            <article class="details_eugene">
                 <h3>Eugene A. Pearson</h3>
+                <img src="background/frankmalcovcircle.png" alt="">
                 <p>But must explain to you how all this mistake idea deounci<br>
                     asure and praising pain was born and will give you a comete<br>
                     account the system and expound the actual teach</p>
             </article>
-            <article>
-                <h4>Mixing Tangible & Intan Interfaces Using</h4>
-                <img src="icon/mini_user.png" alt="">Soamlia<img src="icon/calendar.png" alt="">05 Aug 2020
-                <h4>Mixing Tangible & Intan Interfaces Using</h4>
-                <img src="icon/mini_user.png" alt="">Soamlia<img src="icon/calendar.png" alt="">05 Aug 2020
+
+            <div class="details_horizontal"></div>
+
+            <section class="details_mix">
+                <img src="background/studentsoutside.png" alt="" class="details_mix_img">
+                <h4>Mixing Tangible & Intan<br> Interfaces Using</h4>
+                <div><img src="icon/mini_user.png" alt="" class="details_mix_ico"> Soamlia 
+                <img src="icon/calendar.png" alt="" class="details_mix_icon"> 05 Aug 2020</div>
+            </section>
+
+            <section class="details_mix2">
+                <img src="background/katiejackson.png" alt="" class="details_mix_img">
+                <h4>Mixing Tangible & Intan<br> Interfaces Using</h4>
+                <div><img src="icon/mini_user.png" alt="" class="details_mix_ico"> Soamlia 
+                <img src="icon/calendar.png" alt="" class="details_mix_icon"> 05 Aug 2020</div>
+            </section>   
+
+            <div class="details_horizontal2"></div>
+
+            <article class="details_people">
+                <h2>People's Comments</h2>
+                <section class="details_people1">
+                    <h3>David Angel Makel</h3>
+                    <h4>IT Consultant</h4>
+                    <div>REPLY COMMENTS →</div>
+                    <p>It is a long established fact that a reader will be distracted by the readable content<br>
+                        of page looking at its layout. The point of using Lorem Ipsum normal</p>
+                    <img src="background/sofiamartinezcircle.png" alt="">
+                </section>
+
+                <section class="details_people2">
+                    <h3>Michel Rason Roy</h3>
+                    <h4>Product Designer</h4>
+                    <div>REPLY COMMENTS →</div>
+                    <p>It is a long established fact that a reader will be distracted the readable<br>
+                        content of a page when looking at its layout point of using</p>
+                    <img src="background/sallytailorcircle.png" alt="">
+                </section>
+
+                <section class="details_people3">
+                    <h3>David Angel Makel</h3>
+                    <h4>IT Consultant</h4>
+                    <div>REPLY COMMENTS →</div>
+                    <p>It is a long established fact that a reader will be distracted the readable contentof a<br>
+                        page when looking at its layout. The point of using.</p>
+                    <img src="background/katiejacksoncircle.png" alt="">
+                </section>
             </article>
 
-            <article>
-                <h3>People's Comments</h3>
-            </article>
+            <div class="details_horizontal3"></div>
 
-            <article>
-                <h3>Reply Comments</h3>
+            <article class="details_reply">
+                <h2>Reply Comments</h2>
+                <form action="/action_page.php">
+                    <input type="text" id="fname" name="fullname" placeholder="Full Name Here">
+                
+                    <input type="text" id="lname" name="emailadress" placeholder="Email Adress Here">
+                
+                    <textarea id="subject" name="subject" placeholder="Comments"></textarea>
+                
+                    <button><b> SEND COMMENTS <span style="font-size: 30px;">&#x27F6;</span></b></button>
+                  </form>
             </article>
         </section>
 
-        <aside>
-            <article>
+        <aside class="details_aside">
+            <article class="standard_aside_search">
                 <h3>Search Here</h3>
-                <form>
-                    <input type="text" name="name" placeholder="Keywords">
-                    <input type="submit" name="Submit" value= "icon/lupa.png">
-                </form>
-                Web Design Computer Engineering Business Studies Medical & Health Web Development Learning English
-            </article>
-
-            <article>
-                <h3>Recent News</h3>
-                Smaing Podcast Epis Ode 15 With Phile<br>
-                Smaing Podcast Epis Ode 15 With Phile<br>
-                Smaing Podcast Epis Ode 15 With Phile<br>
-                Smaing Podcast Epis Ode 15 With Phile<br>
-            </article>
-
-            <article>
-                <h3>Photo Gallery</h3>
-            </article>
-
-            <article>
-                <h3>Popular Tags</h3>
-                Design Portfolio Energy Resume Gallery Renewable
+                <div>
+                    <input type="text" id="dname" name="dname" placeholder="Keywords">
+                    <i class="fa fa-search"></i></div>
             </article>
             
-            <article>
-                <img src="icon/hodne_sede_background.png" alt="">
-                <h3>The Best Education Template</h3>
+            <article class="standard_aside_hover">
+                <div class="standard_aside_hover_web">Web Design <i class="fa fa-caret-right"></i></div>
+                <div class="standard_aside_hover_com">Computer Engineering <i class="fa fa-caret-right"></i></div>
+                <div class="standard_aside_hover_bus">Business Studies <i class="fa fa-caret-right"></i></div>
+                <div class="standard_aside_hover_med">Medical & Health <i class="fa fa-caret-right"></i></div>
+                <div class="standard_aside_hover_dev">Web Development <i class="fa fa-caret-right"></i></div>
+                <div class="standard_aside_hover_lea">Learning English <i class="fa fa-caret-right"></i></div>
             </article>
+
+            <section class="standard_aside_recent">
+                <h3>Recent News</h3>
+                <article class="standard_aside_recent1">
+                    <h4>Smaing Podcast Epis<br> Ode 15 With Phile</h4>
+                    <img src="background/recent1.jpg" alt="">
+                    <p><i class="fa fa-caret-right"></i> By Silva Hola</p>
+                </article>
+
+                <article class="standard_aside_recent2">
+                    <h4>Smaing Podcast Epis<br> Ode 15 With Phile</h4>
+                    <img src="background/recent2.jpg" alt="">
+                    <p><i class="fa fa-caret-right"></i> By Silva Hola</p>
+                </article>
+
+                <article class="standard_aside_recent3">
+                    <h4>Smaing Podcast Epis<br> Ode 15 With Phile</h4>
+                    <img src="background/recent3.jpg" alt="">
+                    <p><i class="fa fa-caret-right"></i> By Silva Hola</p>
+                </article>
+
+                <article class="standard_aside_recent4">
+                    <h4>Smaing Podcast Epis<br> Ode 15 With Phile</h4>
+                    <img src="background/recent4.jpg" alt="">
+                    <p><i class="fa fa-caret-right"></i> By Silva Hola</p>
+                </article>
+            </section>
+
+            <section class="standard_aside_photo">
+                <h3>Photo Gallery</h3>
+                <article class="standard_aside_photo1">
+                    <img src="background/gallery8.jpg" alt="" class="standard_aside_img1">
+                    <img src="icon/instac.png" alt="" class="standard_aside_photoig">
+                </article>
+
+                <article class="standard_aside_photo2">
+                    <img src="background/gallery2.jpg" alt="" class="standard_aside_img1">
+                    <img src="icon/instac.png" alt="" class="standard_aside_photoig">
+                </article>
+
+                <article class="standard_aside_photo3">
+                    <img src="background/gallery3.jpg" alt="" class="standard_aside_img1">
+                    <img src="icon/instac.png" alt="" class="standard_aside_photoig">
+                </article>
+            
+                <article class="standard_aside_photo4">
+                    <img src="background/gallery4.jpg" alt="" class="standard_aside_img1">
+                    <img src="icon/instac.png" alt="" class="standard_aside_photoig">
+                </article>
+
+                <article class="standard_aside_photo5">
+                    <img src="background/gallery5.jpg" alt="" class="standard_aside_img1">
+                    <img src="icon/instac.png" alt="" class="standard_aside_photoig">
+                </article>
+
+                <article class="standard_aside_photo6">
+                    <img src="background/gallery7.jpg" alt="" class="standard_aside_img1">
+                    <img src="icon/instac.png" alt="" class="standard_aside_photoig">
+                </article>
+            </section>
+
+            <article class="standard_aside_popular">
+                <h3>Popular Tags</h3>
+                <div>Design</div> 
+                <div>Portfolio</div> 
+                <div>Energy</div> 
+                <div>Resume</div>
+                <div>Gallery</div> 
+                <div>Renewable</div>
+            </article>
+            
+            <img src="background/adv.png" alt="" class="standard_aside_adv">
         </aside>
     </main>
-
     <footer>
-        <nav>
-            <img src="icon/capka.png" alt=""> <b>Edu</b>Plus
-            <a href="https://www.facebook.com/" title="link to facebook"><img src="icon/facebook.png" alt="">Facebook</a> 
-            <a href="https://twitter.com/?lang=en" title="link to twitter" ><img src="icon/twitter.png" alt="">Twitter </a> 
-            <a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube.png" alt="">Youtube</a> 
-            <a href="https://www.instagram.com/" title="link to instagram"><img src="icon/instagram.png" alt="">Instagram</a>
+        <nav class="footer_navigation">
+            <div class="footer_navigation_img"><img src="icon/capka.png" alt=""><p><b>Edu</b>Plus</p></div>
+            <div class="footer_navigation_fb"><a href="https://www.facebook.com/" title="link to facebook"><img src="icon/facebook.png" alt=""><p>Facebook</p></a> </div>
+            <div class="footer_navigation_tw"><a href="https://twitter.com/?lang=en" title="link to twitter" ><img src="icon/twitter_back.png" alt=""><p>Twitter</p></a> </div>
+            <div class="footer_navigation_yt"><a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube.png" alt=""><p>Youtube</p></a></div>
+            <div class="footer_navigation_ig"><a href="https://www.instagram.com/" title="link to instagram"><img src="icon/instagram.png" alt=""><p>Instagram</p></a></div>
+            <div class="footer_navigation_line"></div>
         </nav>
 
-        <article>
+        <section class="footer_courses">
             <h3>Our Courses</h3>
-            Web Development
-            Color Combinations
-            Business Studies
-            Software Development
-            Engineering
-            English Learning
-            Advance WordPress              
-            Graphic Design
-            Basic PSD to HTM
-        </article>
-            
-        <article>
-            <h3>Company</h3>
-            About Eduket
-            Meet Advisors
-            Join a career              
-            Latest courses
-            Newsletters
-        </article>
+            <ul>
+                <div>
+                    <li><img src="icon/orange_dot.png" alt=""> Web Development</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Business Studies</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Computer Engineering</li>
+                    <li><img src="icon/orange_dot.png" alt=""> English Learning</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Graphics Design</li>
+                </div>
 
-        <article>
+                <div>
+                    <li><img src="icon/orange_dot.png" alt=""> Color Combination</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Software Development</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Photography</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Advanced WordPress</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Basic PSD To HTML</li>
+                </div>
+            </ul>
+        </section>
+
+        <section class="footer_company">
+            <h3>Company</h3>
+            <ul>
+                <li><img src="icon/orange_dot.png" alt=""> Meet Advisors</li>
+                <li><img src="icon/orange_dot.png" alt=""> Join A Career</li>
+                <li><img src="icon/orange_dot.png" alt=""> Latest Courses</li>
+                <li><img src="icon/orange_dot.png" alt=""> About Eduket</li>
+                <li><img src="icon/orange_dot.png" alt=""> Newsletters</li>
+            </ul>
+        </section>
+
+        <div class="footer_button">
+            <a href="#"><i class="fa fa-caret-up"></i></a>
+        </div>
+
+        <section class="footer_newsletter">
             <h3>Newletters</h3>
-            <p>Cras elementum Nam quis nulla Praesent id justo in neque <br>erat volutpat Nulla turpis magna curse amen</p>
+            <p>Cras elementum Nam quis nulla Praesent id justo in<br>erat volutpat Nulla turpis magna curse amen</p>
             <form>
                 <input type="text" name="name" placeholder="Enter Your Email">
-                <input type="submit" name="Submit" value="Odeslat">
-             </form> 
-        </article>
+                <button><b><span style="font-size: 30px;">&#x27F6;</span></b></button>
+            </form> 
+        </section>
 
-        <div>
-            <p>Copyright &copy; 2020 <b>Edu</b>Plus All Rights Reserved</p>
+        <div class="footer_copyright">
+            <p>Copyright &copy; 2020 <span><b>Edu</b>Plus</span> All Rights Reserved</p>
         </div>
     </footer>
 </body>

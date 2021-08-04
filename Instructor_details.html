@@ -3,151 +3,312 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Marek Potucek">
-    <title>Instructor Details</title>
+    <title>EduPlus Instructor Details</title>
+    <link rel="shortcut icon" type="image/png" href="icon/dalsi_capka.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-    <header>
-        <a href="Home.html" title="link to homepage"><img src="icon/kloboucek.png" alt="logo"> EduPlus</a>
-        <a href="Home.html" title="link to home"> Home</a>
-        <a href="Our_courses.html" title="link to our courses">Courses</a> 
-        <a href="Event_details.html" title="link to our event details">Events</a>
-        <a href="FAQ.html" title="link to faq">Pages</a>
-        <a href="Blog_standard.html" title="link to blog grip">Blog</a>
-        <a href="Contact_us.html" title="link to contact us">Contact</a>
-        <a href="https://www.facebook.com/" title="link to facebook"><img src="icon/facebook_header.png" alt=""></a>
-        <a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube_header.png" alt=""></a>
-        <img src="icon/mini_user.png" alt=""> SIGN IN
-        <img src="icon/bar.png" alt="">
+<body class="universal_body instructor">
+    <header class ="universal_header">
+        <div class="universal_logo">
+            <a href="Home.html" title="link to homepage"><img src="icon/kloboucek.png" alt="logo"> <span><b>Edu</b>Plus</span></a>
+        </div>
+        <nav>
+            <div class="universal_navigation">
+                <div class="universal_dropdown_menu">
+                    <button class="universal_dropdown_button">Home
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="universal_dropdown-content">
+                        <a href="About_us.html" title="link to about us page">About us</a>
+                        <a href="Our_courses.html" title="link to our courses">Our Courses</a>
+                        <a href="Event_details.html" title="link to event details">Event Details</a>
+                        <a href="Instructor_details.html" title="link to instructor details">Instructor Details</a>
+                    </div>
+                </div>
+
+                <div class="universal_dropdown_menu">
+                    <button class="universal_dropdown_button">Courses
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="universal_dropdown-content">
+                        <a href="Course_details.html" title="link to course">Course</a>
+                        <a href="Our_courses.html" title="link to course list">Course List</a>
+                        <a href="Event_details.html" title="link to course details">Course Details</a>
+                    </div>
+                </div> 
+
+                <div class="universal_dropdown_menu">
+                    <button class="universal_dropdown_button">Faq
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="universal_dropdown-content">
+                        <a href="FAQ.html" title="link to faq">Pages</a>
+                    </div>
+                </div> 
+                
+                <div class="universal_dropdown_menu">
+                    <button class="universal_dropdown_button">Blog
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="universal_dropdown-content">
+                        <a href="Blog_standard.html" title="link to course">Blog grid</a>
+                        <a href="Blog_details.html" title="link to course">Blog Datails</a>
+                    </div>
+                </div>
+                <div class="universal_navigation_contact">
+                    <a href="Contact_us.html" title="link to course">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="universal_header_linkfb">
+            <a href="https://www.facebook.com/" title="link to facebook" class="linkfb"><img src="icon/facebook_header.png" alt=""></a>
+        </div>
+        <div class="universal_header_links">
+            <a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube_header.png" alt=""></a>
+            <a href="" title=""><img src="icon/mini_user.png" alt=""> SIGN IN</a> 
+        </div>
+        
+        <div class="universal_header_bar">
+            <img src="icon/bar.png" alt="">
+        </div>
     </header>
 
+
     <main>
-        <section>
-            <h1>Instructor Details</h1>
-            <article>
-                <img src="icon/hodne_sede_background.png" alt="">
-                <h3>Somalia D Silva<img src="icon/facebook.png" alt=""><img src="icon/twitter.png" alt=""></h3>
-                <p>Math Teacher<img src="icon/youtube.png" alt=""><img src="icon/instagram.png" alt=""></p>
-                <p><img src="icon/subtilni_kniha" alt="">750+ Courses</p>
+        <article class="universal_top">
+            <div class="universal_top_back"></div>
+            <div class="universal_top_h2"><h2>Instructor Details</h2></div>
+            <div class="universal_top_h4"><h4>Home > Instructor Details</h4></div>
+        </article>
+     
+        <section class="instructor_section">
+            <article class="instructor_details">
+                <img class="instructor_details_img" src="background/jackbenton.png" alt="">
+                <h3>Somalia D Silva</h3>
+                <div><p>Math Teacher</p></div>
+                <img src="icon/facebook.png" alt="" class="instructor_details_fb">
+                <img src="icon/youtube.png" alt="" class="instructor_details_yt">
+                <img src="icon/instagram.png" alt="" class="instructor_details_ig">
+                <img src="icon/be.png" alt=""  class="instructor_details_be">
+                <div class="instructor_details_p"><p><img src="icon/subtilni_kniha.png" alt="">750+ Courses</p></div>
+                <div class="instructor_details_line"></div>
             </article>
 
-            <article>
+            <article class="instructor_about">
                 <h2>About Me</h2>
-                <p>Aenean ut luctus sapien. Ut eget elit et eros feugiat imperdiet.<br>
-                    Vestibulum at pulvinar arcu. Phasellus imperdiet,feugiat<br>
-                    urna eget euismod ullamcorper, quam lorem sodales ante, in<br>
-                    in venenatis massa orci dictum sapien. Sed ac ipsum nibh.<br>
-                    In facilisis molestie elit ut dictum. Duis felis purus,<br>
-                    elementum nec dui a, tempus ornare massa. Mauris et enim.<br></p>
+                <p>Aenean ut luctus sapien. Ut eget elit et eros feugiat imperdiet.
+                    Vestibulum at pulvinar arcu. Phasellus imperdiet,feugiat
+                    urna eget euismod ullamcorper, quam lorem sodales ante, in
+                    in venenatis massa orci dictum sapien. Sed ac ipsum nibh.
+                    In facilisis molestie elit ut dictum. Duis felis purus,
+                    elementum nec dui a, tempus ornare massa. Mauris et enim.</p>
 
-                <p>Felis fermentum volutpat. Quisque interdum, nisi vel elementum<br>
-                    tempus, diam leo suscipit nunc, sed posuere tortor ex eget<br>
-                    et facilisis nisl. Pellentesque sed tempus metus, ullamcorper<br>
-                    accumsan ipsum. Cras orci diam, interdum sit amet nibh.<br></p>
-                <img src="icon/lidi.png" alt="">3045+<br>Satisfied Students
-                <img src="icon/jedna_stoji_druha_spadne.png" alt="">7852+<br>Available Courses
+                <p>Felis fermentum volutpat. Quisque interdum, nisi vel elementum
+                    tempus, diam leo suscipit nunc, sed posuere tortor ex eget
+                    et facilisis nisl. Pellentesque sed tempus metus, ullamcorper
+                    accumsan ipsum. Cras orci diam, interdum sit amet nibh.</p>
+                <div class="instructor_about_satisfied"><img src="icon/lidi.png" alt=""><h4>3045+</h4><p>Satisfied Students</p></div>
+                <div class="instructor_about_line"></div>
+                <div class="instructor_about_available"><img src="icon/jedna_stoji_druha_spadne.png" alt=""><h4>7852+</h4><p>Available Courses</p></div>
             </article>
 
-            <article>
-                <h3>Certifications</h3>
-                <p>
-                    Morbi facilisis orci est, id tincidunt mi semper in. Aliquam<br>
-                    iaculis ligula sit amet justo ultrices, a ullamcorper dolor <br>
-                    facilisis. Sed vel nibh ut turpis lacinia congue. In ulla<br>
-                    dolor a pulvinar ultrices, ex est consectetur ligula, at<br>
-                    suscipit nulla.<br>
-                </p>
+            <article class="instructor_certifications">
+                <h2>Certifications</h2>
+                <p>Morbi facilisis orci est, id tincidunt mi semper in. Aliquam
+                    iaculis ligula sit amet justo ultrices, a ullamcorper dolor 
+                    facilisis. Sed vel nibh ut turpis lacinia congue. In ulla
+                    dolor a pulvinar ultrices, ex est consectetur ligula, at
+                    suscipit nulla.</p>
+                    <img src="background/certification1.jpg" alt="" class="instructor_certifications1">
+                    <img src="background/certification2.jpg" alt="" class="instructor_certifications2">
+                    <img src="background/certification3.jpeg" alt="" class="instructor_certifications3">
             </article>
 
-            <article>
-                <h3>Educations</h3>
-                    <img src="icon/dalsi_capka.png" alt="">World University<br>Computer Science<br>
-                    <img src="icon/dalsi_capka.png" alt="">World University<br>Web Development
-   
-                    <img src="icon/kruzitko.png" alt="">Graphics Designer<br>Behance.net<br>                 
-                    <img src="icon/kruzitko.png" alt="">Web Developer<br>Themeforest.net
+            <article class="instructor_education">
+                <h2>Educations</h2>
+                    <div class="instructor_education_com"><img src="icon/dalsi_capka.png" alt=""><h4>World University</h4> <p>Computer Science</p></div>
+                    <div class="instructor_education_web"><img src="icon/dalsi_capka.png" alt=""><h4>World University</h4><p>Web Development</p></div>
+                    <div class="instructor_education_beh"><img src="icon/kruzitko.png" alt=""><h4>Graphics Designer</h4><p>Behance.net</p></div>                 
+                    <div class="instructor_education_the"><img src="icon/kruzitko.png" alt=""><h4>Web Developer</h4><p>Themeforest.net</p></div>
             </article>
         </section>
 
-        <article>
-                <h3>Popular Courses</h3>
-                <p>Warmer</p>
-                <img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt="">
-                <h3>Best Courses For Learning English Courses</h3>
-                <p><img src="icon/subtilni_users.png" alt="">25 <img src="icon/clock.png" alt="">36<img src="icon/comments.png" alt="">2.6k</p>
+        <section class="instructor_container_pop">
+            <h2>Popular Courses</h2>
+            <article class="courses_container_1">
+                <h3>Best Courses For Learning<br> English Courses</h3>
+                <img src="background/businesswomen.png" alt="" class="courses_container_item">
+                <div class="instructor_dot"><p>$59</p></div>
+                <div class="courses_warmer"><p>Warmer</p><img src="background/frank.png" alt=""></div>
+                <div class="courses_rectangle">ENGLISH</div>
+                <div class="courses_stars"><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt=""></div>
+                <div class="course_line"></div>
+                <div class="courses_l"><img src="icon/subtilni_users.png" alt="">25</div>
+                <div class="courses_m"><img src="icon/clock.png" alt="">36hr</div>
+                <div class="courses_r"><img src="icon/comments.png" alt="">2.5k</div>
+            </article>
 
-                <p>Warmer</p>
-                <img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt="">
-                <h3>Learning About It Consulting Business Solutions</h3>
-                <p><img src="icon/subtilni_users.png" alt="">25 <img src="icon/clock.png" alt="">36<img src="icon/comments.png" alt="">2.6k</p>
+            <article class="courses_container_2">
+                <h3>Introduced About Graphics<br>Design For Beginners</h3>
+                <img src="background/manwithglasses.png" alt="" class="courses_container_item">
+                <div class="instructor_dot"><p>$59</p></div>
+                <div class="courses_warmer"><p>Warmer</p><img src="background/frank.png" alt=""></div>
+                <div class="courses_rectangle">DESIGN</div>
+                <div class="courses_stars"><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt=""></div>
+                <div class="course_line"></div>
+                <div class="courses_l"><img src="icon/subtilni_users.png" alt="">25</div>
+                <div class="courses_m"><img src="icon/clock.png" alt="">36hr</div>
+                <div class="courses_r"><img src="icon/comments.png" alt="">2.5k</div> 
+            </article>
 
-                <p>Warmer</p>
-                <img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt="">
-                <h3>Introduced About Basic Web Desing For Beginners</h3>
-                <p><img src="icon/subtilni_users.png" alt="">25 <img src="icon/clock.png" alt="">36<img src="icon/comments.png" alt="">2.6k</p>
-                
-                <p>Warmer</p>
-                <img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt="">
-                <h3>Best Courses For Learning English Courses</h3>
-                <p><img src="icon/subtilni_users.png" alt="">25 <img src="icon/clock.png" alt="">36<img src="icon/comments.png" alt="">2.6k</p>
-           
-                <p>Warmer</p>
-                <img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt="">
-                <h3>Learning About It Consulting Business Solutions</h3>
-                <p><img src="icon/subtilni_users.png" alt="">25 <img src="icon/clock.png" alt="">36<img src="icon/comments.png" alt="">2.6k</p>
-                
-                <p>Warmer</p>
-                <img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt="">
-                <h3>Introduced About Basic Web Desing For Beginners</h3>
-                <p><img src="icon/subtilni_users.png" alt="">25 <img src="icon/clock.png" alt="">36<img src="icon/comments.png" alt="">2.6k</p>
-           
- 
-        </article>
+            <article class="courses_container_3">
+                <h3>Learning About It Business<br> Studies For Beginners</h3>
+                <img src="background/manwithcamera.png" alt="" class="courses_container_item">
+                <div class="instructor_dot"><p>$59</p></div>
+                <div class="courses_warmer"><p>Warmer</p><img src="background/frank.png" alt=""></div>
+                <div class="courses_rectangle">BUSINESS</div>
+                <div class="courses_stars"><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt=""></div>
+                <div class="course_line"></div>
+                <div class="courses_l"><img src="icon/subtilni_users.png" alt="">25</div>
+                <div class="courses_m"><img src="icon/clock.png" alt="">36hr</div>
+                <div class="courses_r"><img src="icon/comments.png" alt="">2.5k</div> 
+            </article>
+
+            <article class="courses_container_4">
+                <h3>Best Courses For Learning<br> English Courses</h3>
+                <img src="background/businesswomen.png" alt="" class="courses_container_item">
+                <div class="instructor_dot"><p>$59</p></div>
+                <div class="courses_warmer"><p>Warmer</p><img src="background/frank.png" alt=""></div>
+                <div class="courses_rectangle">PHP</div>
+                <div class="courses_stars"><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt=""></div>
+                <div class="course_line"></div>
+                <div class="courses_l"><img src="icon/subtilni_users.png" alt="">25</div>
+                <div class="courses_m"><img src="icon/clock.png" alt="">36hr</div>
+                <div class="courses_r"><img src="icon/comments.png" alt="">2.5k</div>
+            </article>
+
+            <article class="courses_container_5">
+                <h3>Best Courses For Learning<br> Marketing Courses</h3>
+                <img src="background/manwithnotebook.png" alt="" class="courses_container_item">
+                <div class="instructor_dot"><p>$59</p></div>
+                <div class="courses_warmer"><p>Warmer</p><img src="background/frank.png" alt=""></div>
+                <div class="courses_rectangle">MARKETING</div>
+                <div class="courses_stars"><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt=""></div>
+                <div class="course_line"></div>
+                <div class="courses_l"><img src="icon/subtilni_users.png" alt="">25</div>
+                <div class="courses_m"><img src="icon/clock.png" alt="">36hr</div>
+                <div class="courses_r"><img src="icon/comments.png" alt="">2.5k</div>
+            </article>
+
+            <article class="courses_container_6">
+                <h3>Introduced About Movie &<br>Photography Beginners</h3>
+                <img src="background/manwhiteboard.png" alt="" class="courses_container_item">
+                <div class="instructor_dot"><p>$59</p></div>
+                <div class="courses_warmer"><p>Warmer</p><img src="background/frank.png" alt=""></div>
+                <div class="courses_rectangle">FILMS</div>
+                <div class="courses_stars"><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt=""></div>
+                <div class="course_line"></div>
+                <div class="courses_l"><img src="icon/subtilni_users.png" alt="">25</div>
+                <div class="courses_m"><img src="icon/clock.png" alt="">36hr</div>
+                <div class="courses_r"><img src="icon/comments.png" alt="">2.5k</div> 
+            </article>
+
+            <article class="courses_container_7">
+                <h3>How To Improve Medical<br>Studies For Beginners</h3>
+                <img src="background/doctors.png" alt="" class="courses_container_item">
+                <div class="instructor_dot"><p>$59</p></div>
+                <div class="courses_warmer"><p>Warmer</p><img src="background/frank.png" alt=""></div>
+                <div class="courses_rectangle">MEDICAL</div>
+                <div class="courses_stars"><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt=""></div>
+                <div class="course_line"></div>
+                <div class="courses_l"><img src="icon/subtilni_users.png" alt="">25</div>
+                <div class="courses_m"><img src="icon/clock.png" alt="">36hr</div>
+                <div class="courses_r"><img src="icon/comments.png" alt="">2.5k</div>
+            </article>
+
+            <article class="courses_container_8">
+                <h3>Learning How To Improve <br>Mobile UI Design</h3>
+                <img src="background/mobileui.png" alt="" class="courses_container_item">
+                <div class="instructor_dot"><p>$59</p></div>
+                <div class="courses_warmer"><p>Warmer</p><img src="background/frank.png" alt=""></div>
+                <div class="courses_rectangle">APPS UI</div>
+                <div class="courses_stars"><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/star.png" alt=""><img src="icon/half_star.png" alt=""></div>
+                <div class="course_line"></div>
+                <div class="courses_l"><img src="icon/subtilni_users.png" alt="">25</div>
+                <div class="courses_m"><img src="icon/clock.png" alt="">36hr</div>
+                <div class="courses_r"><img src="icon/comments.png" alt="">2.5k</div>
+            </article>
+        </section>
     </main>
 
+    <div class="home_reklama_footer">
+        <img src="icon/mountain_reklama.png" alt="">
+        <img src="icon/circle_reklama.png" alt="">
+        <img src="icon/globe_reklama.png" alt="">
+        <img src="icon/paper_reklama.png" alt="">
+        <img src="icon/sumit_reklama.png" alt="">
+    </div>
+    
     <footer>
-        <nav>
-            <img src="icon/capka.png" alt=""> <b>Edu</b>Plus
-            <a href="https://www.facebook.com/" title="link to facebook"><img src="icon/facebook.png" alt="">Facebook</a> 
-            <a href="https://twitter.com/?lang=en" title="link to twitter" ><img src="icon/twitter.png" alt="">Twitter </a> 
-            <a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube.png" alt="">Youtube</a> 
-            <a href="https://www.instagram.com/" title="link to instagram"><img src="icon/instagram.png" alt="">Instagram</a>
+        <nav class="footer_navigation">
+            <div class="footer_navigation_img"><img src="icon/capka.png" alt=""><p><b>Edu</b>Plus</p></div>
+            <div class="footer_navigation_fb"><a href="https://www.facebook.com/" title="link to facebook"><img src="icon/facebook.png" alt=""><p>Facebook</p></a> </div>
+            <div class="footer_navigation_tw"><a href="https://twitter.com/?lang=en" title="link to twitter" ><img src="icon/twitter_back.png" alt=""><p>Twitter</p></a> </div>
+            <div class="footer_navigation_yt"><a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube.png" alt=""><p>Youtube</p></a></div>
+            <div class="footer_navigation_ig"><a href="https://www.instagram.com/" title="link to instagram"><img src="icon/instagram.png" alt=""><p>Instagram</p></a></div>
+            <div class="footer_navigation_line"></div>
         </nav>
 
-        <article>
+        <section class="footer_courses">
             <h3>Our Courses</h3>
-            Web Development
-            Color Combinations
-            Business Studies
-            Software Development
-            Engineering
-            English Learning
-            Advance WordPress              
-            Graphic Design
-            Basic PSD to HTM
-        </article>
-            
-        <article>
-            <h3>Company</h3>
-            About Eduket
-            Meet Advisors
-            Join a career              
-            Latest courses
-            Newsletters
-        </article>
+            <ul>
+                <div>
+                    <li><img src="icon/orange_dot.png" alt=""> Web Development</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Business Studies</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Computer Engineering</li>
+                    <li><img src="icon/orange_dot.png" alt=""> English Learning</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Graphics Design</li>
+                </div>
 
-        <article>
+                <div>
+                    <li><img src="icon/orange_dot.png" alt=""> Color Combination</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Software Development</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Photography</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Advanced WordPress</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Basic PSD To HTML</li>
+                </div>
+            </ul>
+        </section>
+
+        <section class="footer_company">
+            <h3>Company</h3>
+            <ul>
+                <li><img src="icon/orange_dot.png" alt=""> Meet Advisors</li>
+                <li><img src="icon/orange_dot.png" alt=""> Join A Career</li>
+                <li><img src="icon/orange_dot.png" alt=""> Latest Courses</li>
+                <li><img src="icon/orange_dot.png" alt=""> About Eduket</li>
+                <li><img src="icon/orange_dot.png" alt=""> Newsletters</li>
+            </ul>
+        </section>
+
+        <div class="footer_button">
+            <a href="#"><i class="fa fa-caret-up"></i></a>
+        </div>
+
+        <section class="footer_newsletter">
             <h3>Newletters</h3>
-            <p>Cras elementum Nam quis nulla Praesent id justo in neque <br>erat volutpat Nulla turpis magna curse amen</p>
+            <p>Cras elementum Nam quis nulla Praesent id justo in<br>erat volutpat Nulla turpis magna curse amen</p>
             <form>
                 <input type="text" name="name" placeholder="Enter Your Email">
-                <input type="submit" name="Submit" value="Odeslat">
-             </form> 
-        </article>
+                <button><b><span style="font-size: 30px;">&#x27F6;</span></b></button>
+            </form> 
+        </section>
 
-        <div>
-            <p>Copyright &copy; 2020 <b>Edu</b>Plus All Rights Reserved</p>
+        <div class="footer_copyright">
+            <p>Copyright &copy; 2020 <span><b>Edu</b>Plus</span> All Rights Reserved</p>
         </div>
     </footer>
 </body>

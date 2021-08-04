@@ -3,116 +3,329 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Marek Potucek">
-    <title>FAQ</title>
+    <title>EduPlus FAQ </title>
+    <link rel="shortcut icon" type="image/png" href="icon/dalsi_capka.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
-<body>
-    <header>
-        <a href="Home.html" title="link to homepage"><img src="icon/kloboucek.png" alt="logo"> EduPlus</a>
-        <a href="Home.html" title="link to home"> Home</a>
-        <a href="Our_courses.html" title="link to our courses">Courses</a> 
-        <a href="Event_details.html" title="link to our event details">Events</a>
-        <a href="FAQ.html" title="link to faq">Pages</a>
-        <a href="Blog_standard.html" title="link to blog grip">Blog</a>
-        <a href="Contact_us.html" title="link to contact us">Contact</a>
-        <a href="https://www.facebook.com/" title="link to facebook"><img src="icon/facebook_header.png" alt=""></a>
-        <a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube_header.png" alt=""></a>
-        <img src="icon/mini_user.png" alt=""> SIGN IN
-        <img src="icon/bar.png" alt="">
+<body class="universal_body faq">
+    <header class ="universal_header">
+        <div class="universal_logo">
+            <a href="Home.html" title="link to homepage"><img src="icon/kloboucek.png" alt="logo"> <span><b>Edu</b>Plus</span></a>
+        </div>
+        <nav>
+            <div class="universal_navigation">
+                <div class="universal_dropdown_menu">
+                    <button class="universal_dropdown_button">Home
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="universal_dropdown-content">
+                        <a href="About_us.html" title="link to about us page">About us</a>
+                        <a href="Our_courses.html" title="link to our courses">Our Courses</a>
+                        <a href="Event_details.html" title="link to event details">Event Details</a>
+                        <a href="Instructor_details.html" title="link to instructor details">Instructor Details</a>
+                    </div>
+                </div>
+
+                <div class="universal_dropdown_menu">
+                    <button class="universal_dropdown_button">Courses
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="universal_dropdown-content">
+                        <a href="Course_details.html" title="link to course">Course</a>
+                        <a href="Our_courses.html" title="link to course list">Course List</a>
+                        <a href="Event_details.html" title="link to course details">Course Details</a>
+                    </div>
+                </div> 
+
+                <div class="universal_dropdown_menu">
+                    <button class="universal_dropdown_button">Faq
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="universal_dropdown-content">
+                        <a href="FAQ.html" title="link to faq">Pages</a>
+                    </div>
+                </div> 
+                
+                <div class="universal_dropdown_menu">
+                    <button class="universal_dropdown_button">Blog
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="universal_dropdown-content">
+                        <a href="Blog_standard.html" title="link to course">Blog grid</a>
+                        <a href="Blog_details.html" title="link to course">Blog Datails</a>
+                    </div>
+                </div>
+                <div class="universal_navigation_contact">
+                    <a href="Contact_us.html" title="link to course">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="universal_header_linkfb">
+            <a href="https://www.facebook.com/" title="link to facebook" class="linkfb"><img src="icon/facebook_header.png" alt=""></a>
+        </div>
+        <div class="universal_header_links">
+            <a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube_header.png" alt=""></a>
+            <a href="" title=""><img src="icon/mini_user.png" alt=""> SIGN IN</a> 
+        </div>
+        
+        <div class="universal_header_bar">
+            <img src="icon/bar.png" alt="">
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h1>Faq</h1>
-            <article>
-                <h3>David Warmer</h3>
-                <p></p>
+
+    <main class="faq_main">
+        <article class="universal_top">
+            <div class="universal_top_back"></div>
+            <div class="universal_top_h2"><h2>FAQ</h2></div>
+            <div class="universal_top_h4"><h4>Home > Faq</h4></div>
+        </article>
+   
+        <article class="faq_david">
+            <h2>David Warmer</h2>
+            <img src="background/frankmalcovcircle.png" alt="">
+            <h4>CEO & founder</h4>
+            <p> Nunc quis elit nulla. Vestibulu rutrum neque auctor . Cras velit
+                odio, efficitur ac amet,molestie eget urna. Maecenas accumsandiam, vitaet.</p>
+        </article>
+
+
+        <article class="faq_get">
+            <h2>Get In Touch</h2>
+            <div>
+                <form action="/action_page.php">
+                    <input type="text" id="yname" name="yourname" placeholder="Your name">
+                    <input type="text" id="yemail" name="yourmail" placeholder="Your Email">
+                    <input type="text" id="wmessage" name="writemessage" placeholder="Write Message">
+                </form>
+                <button class="faq_get_button"><b> SEND MESSAGE <span style="font-size: 30px;">&#x27F6;</span></b></button>
+            </div>
+        </article>
+
+        <section class="faq_fra">
+            <h2>Frequently Asked Questions</h2>
+            
+            <article  class="faq_fra_avo" >
+                <h3 onclick="myFunction()">Avoid keyboard Event-Related Bugs Browser-Based Transliteration<i class="fa fa-caret-right"></i></h3>
+                <p id="dropdown" class="faq_dropdown">Nullam aliquam semper egestas. In commodo odio ante, nec eros accumsan id. Lorem ipsum dolor<br>
+                     sit amet, consectetur adipiscing elit. </p>
+            </article>
+           
+            <article  class="faq_fra_int" >
+                <h3 onclick="myFunction2()">Introducing Alpine.js: A Tiny JavaScript Framework<i class="fa fa-caret-right"></i></h3>
+                <p id="dropdown2">Aenean placerat. In rutrum. Aliquam ante. Suspendisse nisl. Vivamus ac leo pretium faucibus. Aenean
+                    fermentum risus id tortor. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio</p>
             </article>
 
-            <article>
-                <h2>Get In Touch</h2>
+            <article  class="faq_fra_why">
+                <h3 onclick="myFunction3()">Why Are We Talking About CSS4?<i class="fa fa-caret-right"></i></h3>
+                <p id="dropdown3">Aenean placerat. In rutrum. Aliquam ante. Suspendisse nisl. Vivamus ac leo pretium faucibus. Aenean fermentum
+                    risus id tortor. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio</p>
+            </article>
+         
+            <article class="faq_fra_whe">
+                <h3 onclick="myFunction4()">When You Find A Good Idea, Look For A Better One<i class="fa fa-caret-right"></i> </h3>
+                <p id="dropdown4">Morbi semper dictum felis, eget cursus purus eleifend quis. Sed viverra feugiat ligula, vitae maximus ante
+                     laoreet non. Nam a odio metus. Nulla ut neque sed ligula ultricies viverra eu vitae tortor. Fusce ut facilisis orci. </p>
             </article>
 
-            <aside>
-                <h2>Fraquently Asked Questions</h2>
-                <p>Avoid Keyboard Event-Related Bugs Browser-Based Transliteration</p>
-                <p>Introducing Alpine.js: A Tiny JavaScript Framework</p>
-                <p>Why Are We Talking About CSS4</p>
-                <p>When You Find A Good Idea, Look For A Better One</p>
-                <p>Inspired Design Decisions Neville Design Cannot Remain Neutral</p>
-                <p>Inspired Design Decisions Neville Design Cannot Remain Neutral</p>
-                <p>Embrace The Possibilities March 2020 Wallpapers</p>
-                <p>Embrace The Possibilities March 2020 Wallpapers</p>
-                <p>Embrace The Possibilities March 2020 Wallpapers</p>
-                <p>Embrace The Possibilities March 2020 Wallpapers</p>
-            </aside>
+            <article class="faq_fra_ins">
+                <h3 onclick="myFunction5()">Inspired Design Decisions Neville Design Cannot Remain Neutral<i class="fa fa-caret-right"></i></h3>
+                <p id="dropdown5">Phasellus quis luctus ex, eget rutrum dui. In leo diam, faucibus in cursus non, imperdiet eu purus. Nunc porta>
+                     ac urna quis tempus. </p>
+            </article>
+
+            <article class="faq_fra_insp">
+                <h3 onclick="myFunction6()">Inspired Design Decisions Neville Design Cannot Remain Neutral<i class="fa fa-caret-right"></i></h3>
+                <p id="dropdown6">Morbi dapibus ullamcorper risus, auctor condimentum libero dapibus sed. Sed egestas feugiat tellus, at volutpat
+                    urna accumsan sit amet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices</p>
+            </article>
+           
+            <article class="faq_fra_emb1">
+                <h3 onclick="myFunction7()">Embrace The Possibilities March 2020 Wallpapers<i class="fa fa-caret-right"></i></h3>
+                <p id="dropdown7"> Duis semper, dolor ac porttitor sagittis, ligula orci egestas dolor, eget maximus ipsum lorem sit amet elit.
+                     Sed sollicitudin erat bibendum sagittis pellentesque.</p>
+            </article>
+         
+            <article class="faq_fra_emb2">
+                <h3 onclick="myFunction8()">Embrace The Possibilities March 2020 Wallpapers<i class="fa fa-caret-right"></i></h3>
+                <p id="dropdown8"> Aliquam quis neque vitae mi volutpat dictum sed magna non purus aliquam euismod. Pellentesque habitant morbi
+                    tristique senectus et netus et malesuada fames ac turpis egestas. Cras purus dui, volutpat ut eros quis.</p>
+            </article>
+
+            <article  class="faq_fra_emb3">
+                <h3 onclick="myFunction9()">Embrace The Possibilities March 2020 Wallpapers<i class="fa fa-caret-right"></i></h3>
+                <p id="dropdown9">Aliquam volutpat efficitur justo et congue. Integer sed ultric sed semper turpis. Vivamus eleifend dolor tristique,
+                    eget vehic ac. Curabitur quis pellessa massa, eleifend nec dui ac, hendrerit suscipit elit.</p>
+            </article>
         </section>
 
-        <article class="apply">
+        <article class="faq_ins">
             <h2>Become an Instructor</h2>
-            <p>
-                Morbi imperdiet egestas enim. Donec interdum leo in mi pulvinar ornare.<br>
-                Vestibulum cursus purus sed ornare tempor vehicula. Etiam quis <br>
-                lectus leo. Aenean facilisis sollicitudin risus eget leo tristique.<br>
-                Vestibulum rhoncus quam ac justo eleifend, ut laoreet. <br>
+            <p>Morbi imperdiet egestas enim. Donec interdum leo in mi pulvinar ornare.
+                Vestibulum cursus purus sed ornare tempor vehicula. Etiam quis
+                lectus leo. Aenean facilisis sollicitudin risus eget leo tristique.
+                Vestibulum rhoncus quam ac justo eleifend, ut laoreet.
             </p>
+            <button class="faq_ins_btn"><b> APPLY NOW <span style="font-size: 30px;">&#x27F6;</span></b></button>
         </article>
         
-        <article class="contact">
+        <article class="faq_par">
             <h2>Become a Partner</h2>
-            <p>
-                Morbi imperdiet egestas enim. Donec interdum leo in mi pulvinar ornare.<br>
-                Vestibulum cursus purus sed ornare tempor vehicula. Etiam quis <br>
-                lectus leo. Aenean facilisis sollicitudin risus eget leo tristique.<br>
-                Vestibulum rhoncus quam ac justo eleifend, ut laoreet. <br>
+            <p>Morbi imperdiet egestas enim. Donec interdum leo in mi pulvinar ornare.
+                Vestibulum cursus purus sed ornare tempor vehicula. Etiam quis
+                lectus leo. Aenean facilisis sollicitudin risus eget leo tristique.
+                Vestibulum rhoncus quam ac justo eleifend, ut laoreet.
             </p>
+            <button class="faq_par_btn"><b> CONTACT US <span style="font-size: 30px;">&#x27F6;</span></b></button>
         </article>
     </main>
 
+    <div class="home_reklama_footer">
+        <img src="icon/mountain_reklama.png" alt="">
+        <img src="icon/circle_reklama.png" alt="">
+        <img src="icon/globe_reklama.png" alt="">
+        <img src="icon/paper_reklama.png" alt="">
+        <img src="icon/sumit_reklama.png" alt="">
+    </div>
+    
     <footer>
-        <nav>
-            <img src="icon/capka.png" alt=""> <b>Edu</b>Plus
-            <a href="https://www.facebook.com/" title="link to facebook"><img src="icon/facebook.png" alt="">Facebook</a> 
-            <a href="https://twitter.com/?lang=en" title="link to twitter" ><img src="icon/twitter.png" alt="">Twitter </a> 
-            <a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube.png" alt="">Youtube</a> 
-            <a href="https://www.instagram.com/" title="link to instagram"><img src="icon/instagram.png" alt="">Instagram</a>
+        <nav class="footer_navigation">
+            <div class="footer_navigation_img"><img src="icon/capka.png" alt=""><p><b>Edu</b>Plus</p></div>
+            <div class="footer_navigation_fb"><a href="https://www.facebook.com/" title="link to facebook"><img src="icon/facebook.png" alt=""><p>Facebook</p></a> </div>
+            <div class="footer_navigation_tw"><a href="https://twitter.com/?lang=en" title="link to twitter" ><img src="icon/twitter_back.png" alt=""><p>Twitter</p></a> </div>
+            <div class="footer_navigation_yt"><a href="https://www.youtube.com/" title="link to youtube"><img src="icon/youtube.png" alt=""><p>Youtube</p></a></div>
+            <div class="footer_navigation_ig"><a href="https://www.instagram.com/" title="link to instagram"><img src="icon/instagram.png" alt=""><p>Instagram</p></a></div>
+            <div class="footer_navigation_line"></div>
         </nav>
 
-        <article>
+        <section class="footer_courses">
             <h3>Our Courses</h3>
-            Web Development
-            Color Combinations
-            Business Studies
-            Software Development
-            Engineering
-            English Learning
-            Advance WordPress              
-            Graphic Design
-            Basic PSD to HTM
-        </article>
-            
-        <article>
-            <h3>Company</h3>
-            About Eduket
-            Meet Advisors
-            Join a career              
-            Latest courses
-            Newsletters
-        </article>
+            <ul>
+                <div>
+                    <li><img src="icon/orange_dot.png" alt=""> Web Development</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Business Studies</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Computer Engineering</li>
+                    <li><img src="icon/orange_dot.png" alt=""> English Learning</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Graphics Design</li>
+                </div>
 
-        <article>
+                <div>
+                    <li><img src="icon/orange_dot.png" alt=""> Color Combination</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Software Development</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Photography</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Advanced WordPress</li>
+                    <li><img src="icon/orange_dot.png" alt=""> Basic PSD To HTML</li>
+                </div>
+            </ul>
+        </section>
+
+        <section class="footer_company">
+            <h3>Company</h3>
+            <ul>
+                <li><img src="icon/orange_dot.png" alt=""> Meet Advisors</li>
+                <li><img src="icon/orange_dot.png" alt=""> Join A Career</li>
+                <li><img src="icon/orange_dot.png" alt=""> Latest Courses</li>
+                <li><img src="icon/orange_dot.png" alt=""> About Eduket</li>
+                <li><img src="icon/orange_dot.png" alt=""> Newsletters</li>
+            </ul>
+        </section>
+
+        <div class="footer_button">
+            <a href="#"><i class="fa fa-caret-up"></i></a>
+        </div>
+
+        <section class="footer_newsletter">
             <h3>Newletters</h3>
-            <p>Cras elementum Nam quis nulla Praesent id justo in neque <br>erat volutpat Nulla turpis magna curse amen</p>
+            <p>Cras elementum Nam quis nulla Praesent id justo in<br>erat volutpat Nulla turpis magna curse amen</p>
             <form>
                 <input type="text" name="name" placeholder="Enter Your Email">
-                <input type="submit" name="Submit" value="Odeslat">
-             </form> 
-        </article>
+                <button><b><span style="font-size: 30px;">&#x27F6;</span></b></button>
+            </form> 
+        </section>
 
-        <div>
-            <p>Copyright &copy; 2020 <b>Edu</b>Plus All Rights Reserved</p>
+        <div class="footer_copyright">
+            <p>Copyright &copy; 2020 <span><b>Edu</b>Plus</span> All Rights Reserved</p>
         </div>
     </footer>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("dropdown");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function myFunction2() {
+          var x = document.getElementById("dropdown2");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function myFunction3() {
+          var x = document.getElementById("dropdown3");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function myFunction4() {
+          var x = document.getElementById("dropdown4");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function myFunction5() {
+          var x = document.getElementById("dropdown5");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function myFunction6() {
+          var x = document.getElementById("dropdown6");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function myFunction7() {
+          var x = document.getElementById("dropdown7");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function myFunction8() {
+          var x = document.getElementById("dropdown8");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function myFunction9() {
+          var x = document.getElementById("dropdown9");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+    </script>
 </body>
 </html>
